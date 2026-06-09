@@ -1,2 +1,6 @@
 __pycache__
 .env
+.venv
+chroma_langchain_db
+chunks
+wwe.txt
