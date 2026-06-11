@@ -1,0 +1,7 @@
+10. LangGraph StateGraph Workflow
+Difficulty: Intermediate
+Core Concepts Covered: LangGraph StateGraph API, nodes and edges, shared state schema, conditional routing.
+Tools & Integrations: LangGraph (StateGraph), possibly a simple LLM call inside a node, Python code nodes.
+Project Description: Create a LangGraph workflow for a multi-step task. For example, define a StateGraph with a shared state schema and add nodes that perform actions (such as calling the LLM or modifying state). Use conditional edges: e.g. if the state contains a flag, route to one node; else route elsewhere. Demonstrate compiling and invoking the graph on input.
+Key Learning Outcomes: Learn to define a graph by creating a StateGraph, adding nodes (Python functions) and edges (including conditional edges). Understand how nodes receive and update the shared state and how LangGraph manages execution.
+Suggested Stack: Python, langgraph library, any LLM wrapped in a node (or simple functions), TypedDict or Pydantic for state.
