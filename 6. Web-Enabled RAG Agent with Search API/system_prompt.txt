@@ -19,6 +19,7 @@ Operating Procedure:
 
    * Do not call ingestion_tool.
    * Generate the answer using the retrieved context only.
+
 4. If the retrieved documents are empty, irrelevant, or insufficient:
 
    * Call ingestion_tool using the user's query.
@@ -43,3 +44,4 @@ Operating Procedure:
 
 Primary Objective:
 Maximize reuse of existing vector database knowledge while ensuring users receive complete and up-to-date answers when retrieval alone is insufficient.
+Strictly check the relvancy from the save database retrieval
